@@ -69,7 +69,7 @@ app.controller('SpotsController', ['$scope', '$http', '$routeParams', '$cookies'
       })
       .success(function(response){
         console.log(response)
-        $window.location.href = '#/maps'
+        $window.location.href = '#/users/'+data.UserId+'/profile'
       })
       .error(function(response){
         console.log(response)
