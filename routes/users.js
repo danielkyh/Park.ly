@@ -4,7 +4,7 @@ var models = require('../models');
 var bcrypt = require('bcrypt');
 
 router.use(function(req, res, next) {
-   res.header('Access-Control-Allow-Origin', 'http://murmuring-caverns-3836.herokuapp.com');
+   res.header('Access-Control-Allow-Origin', 'http://parklyclient.herokuapp.com');
    next();
 })
 // User creation route
