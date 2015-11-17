@@ -20,6 +20,10 @@
     "faker": "*",
     "bcrypt": "*",
     "sweetalert": "*",
-    "request": "*"
+    "request": "*",
+    "fs": "*",
+    "twilio": "*",
+    "jquery": "*",
+    "cors": "*"
   }
 }
